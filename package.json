@@ -1,0 +1,17 @@
+{
+  "name": "YouTube-to-MP3",
+  "version": "1.0.0",
+  "description": "Convert YouTube to MP3",
+  "main": "index.js",
+  "repository": "https://github.com/IronWill79/yt2mp3",
+  "author": "Will Walsh",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "sanitize-filename": "^1.6.3",
+    "youtube-dl-exec": "^1.2.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
